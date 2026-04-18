@@ -1,0 +1,20 @@
+/* styles.css */
+/* Keep the design separate from the logic. */
+.card-container {
+    padding: 20px;
+    border: 1px solid #e6e6e6;
+    border-radius: 15px;
+    background-color: #ffffff;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    margin-bottom: 20px;
+    height: 100%;
+}
+
+.card-container:hover {
+    border-color: #e2bcbc;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+    transform: translateY(-5px);
+}
+
+
