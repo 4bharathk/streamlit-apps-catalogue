@@ -1,10 +1,20 @@
-# Streamlit Apps and Tools Catalogue
+# 💫 Streamlit Apps and Tools Catalogue
 
 This is Apps and Tools building series using Streamlit and AI.  
-We’ll build a very simple chatbot using **Streamlit** + **OpenRouter ** + **Gemini AI**.
+We’ll build a very simple chatbot using **Streamlit** + **OpenRouter**  + **Gemini AI**.
 
-## Project Structure
-apps-catalogue/
+## 🌟 Features
+
+- **Basic Chat GPT** - Works using OpenRouter and Google Gemini
+- **Text Translation to Swedish and Reading Assist** - Highlights the words when reading 
+
+
+## 🚀 Live Demo
+
+Visit : [Site](https://myapps-catalogue.streamlit.app/)
+
+## 📁 Project Structure
+```apps-catalogue/
 ├── app.py              # Main entry point & Navigation
 ├── config.py           # Centralized data/page configuration
 ├── styles.css          # Custom CSS for cards and UI
@@ -12,6 +22,7 @@ apps-catalogue/
 │   ├── home.py         # Dashboard with cards
 │   ├── chatbot.py      # Chat GPT Bot logic
 │   ├── ReadingAssistant.py      # Chat GPT Bot logic
+```
 
 ## Run locally
 
