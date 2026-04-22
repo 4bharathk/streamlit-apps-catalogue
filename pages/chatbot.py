@@ -21,8 +21,8 @@ def show():
     with st.sidebar:
 
         API_KEY = st.text_input("API Key *",
-                                       placeholder="your OpenAI API key (sk-...)",
-                                       help="You can get your API key from https://platform.openai.com/account/api-keys.",
+                                       placeholder="Your OpenRouter/Gemini API key (sk-...)",
+                                       help="You can get your API key from https://openrouter.ai.",
                                        type="password", key="sidebar_api_key_input")
 
         st.header("⚙️ LLM Model & Parameters")
